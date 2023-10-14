@@ -1,4 +1,4 @@
-name: Continuous Testing and Docs Publication
+name: Test
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ on:
       - ready_for_review
   push:
     branches:
-      - dev
+      - main
   workflow_dispatch:
   schedule:
     # At 02:00 on Sunday: https://crontab.guru/#0_2_*_*_0
